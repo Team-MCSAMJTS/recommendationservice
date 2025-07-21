@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  IMAGE_NAME: marypearl/recommendationservice
+  IMAGE_NAME: alade01/recommendationservice
 
 jobs:
   build-and-push:
@@ -30,5 +30,5 @@ jobs:
           context: .
           push: true
           tags: |
-            marypearl/recommendationservice:latest
-            marypearl/recommendationservice:${{ github.sha }}
+            alade01/recommendationservice:latest
+            alade01/recommendationservice:${{ github.sha }}
