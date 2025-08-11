@@ -32,3 +32,5 @@ jobs:
           tags: |
             alade01/recommendationservice:latest
             alade01/recommendationservice:${{ github.sha }}
+
+            
